@@ -1,0 +1,3 @@
+#!/bin/sh
+SCRIPT_NAME=`basename $0`
+[ ! -e /etc/tinc/config/$SCRIPT_NAME ] || . /etc/tinc/config/$SCRIPT_NAME
